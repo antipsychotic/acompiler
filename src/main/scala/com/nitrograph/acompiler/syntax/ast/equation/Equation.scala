@@ -1,7 +1,7 @@
-package com.nitrograph.acompiler.syntax.equation
+package com.nitrograph.acompiler.syntax.ast.equation
 
 import com.nitrograph.acompiler.syntax.shared._
-import com.nitrograph.acompiler.syntax.equation.term._
+import com.nitrograph.acompiler.syntax.ast.equation.term._
 
 case class Equation(
   terms: InfixList[Term, Term.Operation]

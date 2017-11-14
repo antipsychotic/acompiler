@@ -1,4 +1,4 @@
-package com.nitrograph.acompiler.syntax.equation.term.factor
+package com.nitrograph.acompiler.syntax.ast.equation.term.factor
 
 import com.nitrograph.acompiler.syntax.shared._
 
